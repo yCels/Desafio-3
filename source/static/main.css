@@ -1,3 +1,26 @@
-@import url('/source/static/normalize.css')
+@import url('/source/static/normalize.css');
 
-/* CSS BASE.HTML */
+.imagem-logo{
+
+    max-width: 130px ;
+    max-height:130px;
+    background-color: #212529 ;
+}
+
+/*  footer */
+ footer { 
+    background-color: #212529;
+    color: white;
+    padding: 20px 0; 
+    text-align: center; 
+    position: fixed;
+    width: 100%; 
+    bottom: 0; 
+}
+
+.footer-content {
+    max-width: 100%; /* Largura máxima do conteúdo do footer */
+    max-height: 60px;
+    margin: 0 auto;
+    background-color: #212529;
+}
