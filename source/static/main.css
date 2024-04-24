@@ -1,9 +1,11 @@
 @import url('/source/static/normalize.css');
+@import url('/source/static/index.css');
 
+/* Design nav bar e fotter da base.html */
 .imagem-logo{
 
-    max-width: 130px ;
-    max-height:130px;
+    max-width: 75px ;
+    max-height:75px;
     background-color: #212529 ;
 }
 

@@ -6,6 +6,14 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+# @app.route('/pagina2')
+# def pagina2():
+#     return render_template('pagina2.html')
+
+# @app.route('pagina3')
+# def pagina3():
+#     return render_template('pagina3.html')
+
 
 
 
