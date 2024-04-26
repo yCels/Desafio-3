@@ -1,6 +1,13 @@
 @import url('/source/static/normalize.css');
 @import url('/source/static/index.css');
+*{
+    box-sizing: border-box;
+}
 
+body{
+    margin: 0;
+    height: 100vh;
+}
 /* Design nav bar e fotter da base.html */
 .imagem-logo{
 
@@ -15,9 +22,9 @@
     color: white;
     padding: 20px 0; 
     text-align: center; 
-    position: fixed;
     width: 100%; 
     bottom: 0; 
+    
 }
 
 .footer-content {

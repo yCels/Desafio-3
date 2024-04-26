@@ -1,58 +1,104 @@
-.container-index {
-    max-width: 100%;
-    /* largura da div */
-    max-height: 100%;
-    /* altura da div */
-    position: relative;
-    /* necessário para posicionar o conteúdo de forma absoluta */
+*{
+    box-sizing: border-box;
+
 }
 
-.container-index h1,
-p {
+
+/* HEADLINE BOOTSTRAP JUMBOTRON */
+
+.headline{
+    height: 60vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    
+}
+
+.headline::before{
+    background-image: url('../static/imagens/torcidasp.jpg');
+    background-size: cover;
+    content:'';
+    position: absolute;
+    inset:0;
+    opacity: 0.5;  
+}
+
+.headline-content{
+    position: relative;
+    z-index: 1;
     text-align: center;
 }
 
-.container-index-content {
-    position: relative;
-    /* torna o posicionamento relativo ao seu pai (a div .container) */
-    color: white;
-    /* cor do texto */
-    z-index: 1;
-    /* coloca o texto acima do overlay */
-    padding: 20px;
-    /* espaço interno para o conteúdo */
+.headline-content h2{
+    text-align: center;
+    isolation: isolate;
+    color: beige;
 }
 
 
-.img-content {
-    max-width: 100%;
-    /* faz a imagem se ajustar à largura da div */
-    max-height: 100%;
-    /* faz a imagem se ajustar à altura da div */
-    margin: auto;
-    /* centraliza a imagem horizontalmente */
-    display: block;
-    /* permite aplicar margin:auto */
-    height: 150px;
-    width: 300px;
 
+/* .............................................. */
+
+
+ .section{
+    background-color: rgb(255, 255, 255);      
+    border: solid black 4px;
+    text-align: left;
+
+ }
+ 
+.section-content{
+    background-color: aliceblue;
 }
 
-.container-background {
-    color: rgb(239, 71, 71);
-    width: 100%;
-    height: 100%;
+.section-content h3{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container-index{
     background-image: url('../static/imagens/torcidasp.jpg');
-    /* imagem de fundo */
-    background-size: cover;
-    /* ajusta a imagem para cobrir todo o fundo */
-    background-position: center;
-    /* centraliza a imagem no fundo */
-    opacity: 0.5;
-    /* opacidade da imagem de fundo */
-    position: absolute;
-    /* posição absoluta */
-    top: 0;
-    left: 0;
-
+    background-size: cover; 
+    background-position: center; 
+    max-width: 100%;
+    max-height: 100%;
 }
+
+.img-content{
+    max-width: 30%;
+    max-width: 30%;
+}
+.background{
+
+    background-image: url('../static/imagens/torcidasp.jpg');
+    
+}
+
+
+.container-index-content{
+    text-align: center;
+} */
+
+
