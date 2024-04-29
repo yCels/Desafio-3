@@ -11,7 +11,7 @@
     display: grid;
     place-items: center;
     position: relative;
-    background-color: rgba(222, 14,13 );
+    background-color: rgba(0, 0, 0, 0.771);
     
 }
 
@@ -40,9 +40,18 @@
 
 /* .............................................. */
 /*                   SECTION CONTENT              */
+.container-section{
+
+    background-color: rgba(202, 0, 0, 0.914);
+}
+
+
+
 .container-section img{
     width: 600px;
-    height: 500px;
+    height: 600px;
+    display: flex;
+
 }
 
 
@@ -51,24 +60,19 @@
     display: flex;
     margin-left:5% ;
     margin-right: 5%;
+    justify-content: space-between;
 }
-.sectionT img{
-    max-width: 500px ;
-    max-height: 500px;
+
+.img{
+    align-content: center;
+    
 }
 
 .paragrafo p{
     flex-wrap: column wrap ;
-    font-size: 13px;
+    font-size: 15px;
+    width: 600px;
+    color: antiquewhite;
+    text-align: justify;
 }
 
-
-.img2-section{
-    max-width: 1000px ;
-    max-height: 1000px;
-}
-
-.img1-section{
-    max-width: 1000px ;
-    max-height: 1000px;
-}
