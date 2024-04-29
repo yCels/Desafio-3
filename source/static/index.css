@@ -11,7 +11,7 @@
     display: grid;
     place-items: center;
     position: relative;
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(222, 14,13 );
     
 }
 
@@ -39,66 +39,36 @@
 
 
 /* .............................................. */
-
-
- .section{
-    background-color: rgb(255, 255, 255);      
-    border: solid black 4px;
-    text-align: left;
-
- }
- 
-.section-content{
-    background-color: aliceblue;
-}
-
-.section-content h3{
-    text-align: center;
+/*                   SECTION CONTENT              */
+.container-section img{
+    width: 600px;
+    height: 500px;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container-index{
-    background-image: url('../static/imagens/torcidasp.jpg');
-    background-size: cover; 
-    background-position: center; 
-    max-width: 100%;
-    max-height: 100%;
+.sectionT{
+    display: flex;
+    margin-left:5% ;
+    margin-right: 5%;
+}
+.sectionT img{
+    max-width: 500px ;
+    max-height: 500px;
 }
 
-.img-content{
-    max-width: 30%;
-    max-width: 30%;
-}
-.background{
-
-    background-image: url('../static/imagens/torcidasp.jpg');
-    
+.paragrafo p{
+    flex-wrap: column wrap ;
+    font-size: 13px;
 }
 
 
-.container-index-content{
-    text-align: center;
-} */
+.img2-section{
+    max-width: 1000px ;
+    max-height: 1000px;
+}
 
-
+.img1-section{
+    max-width: 1000px ;
+    max-height: 1000px;
+}
