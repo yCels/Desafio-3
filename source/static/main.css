@@ -1,5 +1,8 @@
 @import url('/source/static/normalize.css');
 @import url('/source/static/index.css');
+@import url('/source/static/títulos.css');
+
+
 *{
     box-sizing: border-box;
 }
