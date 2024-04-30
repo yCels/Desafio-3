@@ -13,7 +13,7 @@ box-sizing: border-box;
 }
 
 .headlineT::before{
-    background-image: url('../static/imagens/ESCUDO.JPG');
+    background-image: url('../static/imagens/titulos-768x494.jpg');
     background-size: cover; 
     content:'';
     position: absolute;
@@ -35,4 +35,20 @@ box-sizing: border-box;
 
 /* ................................................. */
 /* Section content.................................................. */
- 
+    
+.slide {
+    z-index: 0;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .image-cover {
+    max-height: 100vh;
+    mask-image: none;
+    image-rendering: auto;
+  }
+
+.carousel{
+    margin: 50px
+
+}
+
