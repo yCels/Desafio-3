@@ -12,16 +12,31 @@ body{
     height: 100vh;
 }
 /* Design nav bar e fotter da base.html */
+
+.container-fluid{
+    /* background-color: #000000; */
+}
+ #navbarNavDropdown{
+    /* background-color: #000000; */
+ }
 .imagem-logo{
 
     max-width: 75px ;
     max-height:75px;
-    background-color: #212529 ;
+    background-color: #000000 ;
 }
+
+.custom-bg-black {
+    background-color: #000;
+}
+
+
+
+
 
 /*  footer */
  footer { 
-    background-color: #212529;
+    background-color: #000000;
     padding: 10px; 
     text-align: center; 
     width: 100%; 

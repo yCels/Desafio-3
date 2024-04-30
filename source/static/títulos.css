@@ -1,33 +1,35 @@
-*{
-box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
+
 /* HEADLINE _______________________________________ */
-.headlineT{
+.headlineT {
     height: 60vh;
     display: grid;
     place-items: center;
     position: relative;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.771);
-    
+
 }
 
-.headlineT::before{
-    background-image: url('../static/imagens/titulos-768x494.jpg');
-    background-size: cover; 
-    content:'';
+.headlineT::before {
+    background-image: url('../static/imagens/fotos-blog-2023-09-25T125058.869.png');
+    background-size: cover;
+    height: 100%;
+    content: '';
     position: absolute;
-    inset:0;
-    opacity: 0.5;  
+    inset: 0;
+    opacity: 0.5;
 }
 
-.headlineT-content{
+.headlineT-content {
     position: relative;
     z-index: 1;
     text-align: center;
 }
 
-.headlineT-content h2{
+.headlineT-content h2 {
     text-align: center;
     isolation: isolate;
     color: beige;
@@ -35,20 +37,34 @@ box-sizing: border-box;
 
 /* ................................................. */
 /* Section content.................................................. */
-    
+
 .slide {
     z-index: 0;
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
-  }
-  
-  .image-cover {
+}
+
+.image-cover {
     max-height: 100vh;
     mask-image: none;
     image-rendering: auto;
-  }
+}
 
-.carousel{
-    margin: 50px
+.carousel {
+    margin: 5%;
 
 }
 
+.d-md-block {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.carousel-item img {
+    opacity: 0.82;
+}
+
+.background {
+    background-color: #a60000;
+    padding-top:5% ;
+    padding-bottom: 5% ;
+}
