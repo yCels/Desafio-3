@@ -3,6 +3,11 @@
 
 }
 
+body{
+    background-color:  rgba(202, 0, 0, 0.974);
+    
+}
+
 
 /* HEADLINE BOOTSTRAP JUMBOTRON */
 
@@ -18,10 +23,12 @@
 .headline::before{
     background-image: url('../static/imagens/torcidasp.jpg');
     background-size: cover;
+    background-position: center;
     content:'';
     position: absolute;
     inset:0;
     opacity: 0.5;  
+
 }
 
 .headline-content{
@@ -40,39 +47,39 @@
 
 /* .............................................. */
 /*                   SECTION CONTENT              */
-.container-section{
-
-    background-color: rgba(202, 0, 0, 0.914);
-}
 
 
-
-.container-section img{
-    width: 600px;
-    height: 600px;
-    display: flex;
-
-}
-
-
-
-.sectionT{
-    display: flex;
-    margin-left:5% ;
-    margin-right: 5%;
-    justify-content: space-between;
-}
-
-.img{
-    align-content: center;
-    
-}
-
-.paragrafo p{
-    flex-wrap: column wrap ;
-    font-size: 15px;
-    width: 600px;
-    color: antiquewhite;
+.container-content p{
+    color: aliceblue
+    ;
+} 
+.container-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: justify;
-}
+  }
 
+.container-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+.container-content h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 2px;
+    text-align: center;
+  }
+
+.container-content p {
+    margin-bottom: 20px;
+  }
+    
+
+
+
+.img1{
+    width: 752px;
+}

@@ -3,33 +3,34 @@
 }
 
 /* HEADLINE _______________________________________ */
-.headlineT {
+
+.headlineT{
     height: 60vh;
     display: grid;
     place-items: center;
     position: relative;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.771);
-
+    background-color: rgba(0, 0, 0, 0.936);
+    
 }
 
-.headlineT::before {
-    background-image: url('../static/imagens/fotos-blog-2023-09-25T125058.869.png');
+.headlineT::before{
+    background-image: url('../static/imagens/torcidasp.jpg');
     background-size: cover;
-    height: 100%;
-    content: '';
+    background-position: center;
+    content:'';
     position: absolute;
-    inset: 0;
-    opacity: 0.5;
+    inset:0;
+    opacity: 0.5;  
+
 }
 
-.headlineT-content {
+.headlineT-content{
     position: relative;
     z-index: 1;
     text-align: center;
 }
 
-.headlineT-content h2 {
+.headlineT-content h2{
     text-align: center;
     isolation: isolate;
     color: beige;
@@ -57,10 +58,11 @@
 .d-md-block {
     color: #000000;
     text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(255, 8, 0, 0.96);
 }
 
 .carousel-item img {
-    opacity: 0.82;
+    opacity: 0.96;
 }
 
 .background {

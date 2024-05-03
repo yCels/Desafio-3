@@ -14,7 +14,9 @@ body{
 /* Design nav bar e fotter da base.html */
 
 .container-fluid{
+    display: flex;
     /* background-color: #000000; */
+    justify-content: left ;
 }
  #navbarNavDropdown{
     /* background-color: #000000; */
